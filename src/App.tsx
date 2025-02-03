@@ -1,6 +1,6 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import { ThemeProvider } from './contexts/ThemeContext';
+import ThemeContext from './contexts/ThemeContext';
 import { Layout } from './components/Layout';
 import { Home } from './pages/Home';
 import { FileExplorer } from './components/FileExplorer';
